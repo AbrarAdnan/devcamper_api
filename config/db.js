@@ -5,7 +5,7 @@ const connectDB = async () => {
 		//useNewUrlParser: true,
 		//useCreateIndex: true,
 		//useFindAndModify: false,
-		// These above ar no longer necessary
+		// These above are no longer necessary
 		useUnifiedTopology: true,
 	});
 
