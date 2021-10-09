@@ -36,6 +36,11 @@ const CourseSchema = new mongoose.Schema({
 		red: 'Bootcamp',
 		required: true,
 	},
+	user: {
+		type: mongoose.Schema.ObjectId,
+		red: 'User',
+		required: true,
+	},
 });
 
 // Static method to get avd of course tuitions
